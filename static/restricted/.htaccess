@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted to members of FSL Class of 76"
+AuthUserFile /web/www.etinu.net/htdocs/classof76/static/restricted/.htpasswd
+require valid-user

@@ -1,0 +1,25 @@
+<link media="all" rel="stylesheet" href="/classof76/css/card.css" type="text/css" />
+<script type="text/JavaScript" src="/default/js/exhibit.js"></script>
+
+<div id="base">
+<article id="workshopVitals" class="workshop workshopStart">
+<section id="workshopImage1" class="workshopSpace workshopSpaceStart"></section>
+<section id="workshopImage2" class="workshopSpace workshopSpaceStart"></section>
+<section id="workshopImage3" class="workshopSpace workshopSpaceStart"></section>
+<section id="workshopImage4" class="workshopSpace workshopSpaceStart"></section>
+</article>
+</div>
+
+<div id="overlay">
+<div id="extras" class="extras extrasStart"></div>
+</div>
+
+<script type="text/JavaScript">
+addEvent (window, 'load', function () {cueContent ('/classof76/images/2016-samples/', 147, 4, 2500, [0, 1, 1, 1])});
+addEvent (window, 'load', function () {
+setTimeout (function () {
+		var extras = document.getElementById ('extras');
+		extras.className = extras.className.replace (' extrasStart', '');
+}, 6000);
+});
+</script>
