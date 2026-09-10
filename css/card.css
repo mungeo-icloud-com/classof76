@@ -1,0 +1,223 @@
+/* Used for special workshop overview pages with Platypus and ETINU web sites */
+/* -- these overview pages are not generic sections but static files loaded using the 'default' script */
+
+body.justContent {
+	height: 100%;
+	background-image: url(/classof76/images/christmas/class-photo.jpg);
+	background-postion: center center;
+	background-repeat: no-repeat;
+	background-color: green;
+	background-attachment: fixed;
+}
+
+body.justContent div#global.global {
+	background-color: transparent;
+}
+
+article#workshopVitals.workshopStart {
+	border-color: transparent;
+}
+
+article#workshopVitals {
+	position: relative;
+	top: 0;
+	left: -50%;
+	border-color: #cc3333;
+	margin-top: 75px;
+}
+
+article.workshop {
+	position: relative;
+	width: 950px;
+	height: 633px;
+	padding: 0;
+	margin: 0 auto 25px auto;
+	border-radius: 15px;
+	border: 5px solid silver;
+	overflow: hidden;
+	background-color: rgba(245, 245, 245, 0.5);
+	opacity: 1;
+	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
+article.workshopStart {
+	opacity: 0;
+}
+
+article.workshop, section.workshopSpace {
+	-webkit-transition-timing-function: ease-in-out;
+	-moz-transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	-ms-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+    -webkit-transition-delay: 0;
+    -moz-transition-delay: 0;
+    -o-transition-delay: 0;
+    -ms-transition-delay: 0;
+    transition-delay: 0;
+	-webkit-transition: all 2s, opacity 2s;
+	-moz-transition: all 2s, opacity 2s;
+	-o-transition: all 2s, opacity 2s;
+	-ms-transition: all 2s, opacity 2s;
+	transition: all 2s, opacity 2s;    
+
+}
+
+article.workshop {
+    -webkit-transition: opacity 3s;
+    -moz-transition: opacity 3s;
+    -o-transition: opacity 3s;
+    -ms-transition: opacity 3s;
+    transition: opacity 3s;    
+}
+
+section.workshopSpace {
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+    -ms-transition: all 2s;
+    transition: all 2s;    
+	position: absolute;
+	height: 316px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	background-postion: top center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-clip: padding-box;
+	opacity: 1;
+	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
+.workshopSpaceStart {
+}
+
+section.workshopSpaceStart:nth-of-type(1) {
+	margin-left: -500px;
+	opacity: 0;
+}
+
+section.workshopSpaceStart:nth-of-type(2) {
+	margin-top: -500px;
+	opacity: 0;
+}
+
+section.workshopSpaceStart:nth-of-type(3) {
+	margin-top: 1500px;
+	opacity: 0;
+}
+
+section.workshopSpaceStart:nth-of-type(4) {
+	margin-left: 500px;
+	opacity: 0;
+}
+
+section.workshopSpace:nth-of-type(1), section.workshopSpace:nth-of-type(3) {
+	width: 475px;
+}
+
+section.workshopSpace:nth-of-type(2), section.workshopSpace:nth-of-type(4) {
+	width: 474px;
+	border-left: 1px solid gray;
+}
+
+section.workshopSpace:nth-of-type(1), section.workshopSpace:nth-of-type(2) {
+	border-bottom: 1px solid gray;
+}
+
+section.workshopSpace:nth-of-type(1) {
+	top: 0;
+	left: 0;
+	border-top-left-radius: 9px;
+}
+
+section.workshopSpace:nth-of-type(2) {
+	top: 0;
+	left: 475px;
+	border-top-right-radius: 9px;
+}
+
+section.workshopSpace:nth-of-type(3) {
+	top: 317px;
+	left: 0;
+	border-bottom-left-radius: 9px;
+}
+
+section.workshopSpace:nth-of-type(4) {
+	top: 317px;
+	left: 475px;
+	border-bottom-right-radius: 9px;
+}
+
+section#workshopImage1 {
+	background-image: url(/classof76/images/christmas/message-2016.png);
+}
+
+section#workshopImage2 {
+	background-image: url(/classof76/images/christmas/narnia.jpg);
+}
+
+section#workshopImage3 {
+	background-image: url(/platypusconsultancy/images/christmas/robin.jpg);
+}
+
+section#workshopImage4 {
+	background-image: url(/platypusconsultancy/images/christmas/deer.jpg);
+}
+
+img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div.extrasStart {
+	opacity: 0;
+}
+
+div.extras {
+	-webkit-transition: opacity ease-out 75s;
+	-moz-transition: opacity ease-out 75s;
+	-o-transition: opacity ease-out 75s;
+	-ms-transition: opacity ease-out 75s;
+	transition: opacity ease-out 75s;
+}
+
+div#base {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+div#overlay {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+div#extras {
+	position: relative;
+	top: 0;
+	left: -50%;
+	z-index: 110;
+	background-image: url(/classof76/images/christmas/extras-2016.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	width: 1146px;
+	height: 780px;
+	min-width: 965px;
+}
+
+/* End of directives */

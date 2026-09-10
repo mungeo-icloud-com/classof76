@@ -1,0 +1,69 @@
+/* Different devices */
+
+/* Smaller smarterphone to Apple Watch (portrait and landscape) ----------- */
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+	#sectioncontainer, #menucontainer, #submenucontainer, #bannercontainer, #footercontainer, section#logindetails, div#global {width: 98%;}
+	.billboard {display: none;}
+	#logindetails {padding: 5px 0;}
+	.activeMenu, .inactiveMenu {width: 100%;}
+	.activeMenu a, .activeMenu a:link, .activeMenu a:visited, .inactiveMenu a, .inactiveMenu a:hover {font-size: 100%;}
+	.welcomeText {overflow: visible;}
+	.blockLeft {padding: 0;}
+	.blockCenter {margin: 5px 0;}
+	img#logo {margin-top: 10px;}
+	div#searchSite {display: none;}
+	#sidebar {width: 98%; min-height: 0;}
+	textarea, input {width: 155%;}
+	div.form div.firstLineItem {text-align: center; width: 100%;}
+	figure.calendar {}
+	#eventsMonth {width: 95%}
+	#eventsList {width: 95%;}
+	.personPhoto {float: none;}
+	.personContainer {width: 100%;}
+	div#resourcesOptionsContent form {width: 100%;}
+	div#resourcesOptionsContent .firstLineItem, div#filterOptionsContent .firstLineItem, div#documentsOptionsContent .firstLineItem {width: 45%; text-align: left;}
+	.resources div.lineItem {width: 98%;}
+	.inputAdjusted {width: 60%; float: none;}
+	.gallery #optionsMenuitems {display: none;} /* tag cloud buttons */
+	div#freestyle {width: 98%;}
+	div.freestyle img:nth-child(1) {width: 98%;}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	div.global {margin: 5px auto; padding: 0;} 
+	.activeMenu a, .activeMenu a:link, .activeMenu a:visited, .inactiveMenu a, .inactiveMenu a:hover {font-size: 125%;}
+}
+
+/* Larger smartphones/smaller tablets (portrait and landscape) ----------- */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	div.global {margin: 5px auto; padding: 0;} 
+	.billboard {display: none;}
+	#sectioncontainer, #menucontainer, #submenucontainer, #bannercontainer, #footercontainer, section#logindetails, div#global {width: 98%;}
+	#sidebar {width: 100%;}
+	.support .form {margin: 5px auto;}
+	div.form div.firstLineItem {text-align: center; width: 100%;}
+	.inputAdjusted {text-align: center; width: 100%;}
+	.gallery #optionsMenuitems {display: none;} /* tag cloud buttons */
+	div#resourcesOptionsContent form {width: 100%;}
+	div#resourcesOptionsContent .firstLineItem, div#filterOptionsContent .firstLineItem, div#documentsOptionsContent .firstLineItem {width: 45%; text-align: left;}
+}
+
+/* Larger tablets (portrait and landscape) ----------- */
+
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+	.billboard {display: none;}
+	div.global {margin: 5px auto; padding: 0;} 
+	#sectioncontainer, #menucontainer, #submenucontainer, #bannercontainer, #footercontainer, section#logindetails, div#global {width: 98%;}
+	.support .form {margin: 5px auto;}
+}
+
+/* Problem as explicit sizes in code ----------- */
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.billboard {display: none;}
+	#global div#lbOverlay, #global div#lbCenter, #global div#lbBottomContainer {display: none;}
+}

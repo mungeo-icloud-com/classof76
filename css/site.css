@@ -1,0 +1,308 @@
+/* red ef3e33 and 990000, green 006600 (22441C), deep yellow ffc758, pale yellow fff0d3 */
+
+/* Main defaults */
+
+body {
+	background-color: white;
+	color: #333333;
+	font: normal 14px Verdana, sans-serif;
+}
+
+/* Top layout */
+
+#logindetails {
+	padding: 5px 0;
+	width: 960px;
+}
+
+div#searchSite {
+	margin-left: 715px;
+}
+
+#logo {
+	padding: 15px 0;
+}
+
+#bannercontainer {
+	height: 120px;
+}
+
+.generic1 #sidebar, #support1 #sidebar {
+    width: 115px;
+}
+
+#support1 .form {
+	margin: 0 auto;
+}
+
+#support1 div#mainbar {
+	margin: 0 auto;
+}
+
+/* Figure border */
+
+figure {
+	border: 0;
+}
+
+/* Menu stuff */
+
+#menucontainer {
+	background-color: #fff0d3;
+}
+
+#submenucontainer {
+	background-color: #22441C;
+	border-bottom: 1px solid #22441C;
+}
+
+nav#submenucontainer.private {
+	background-color: #999999;
+}
+
+.activeMenu, .inactiveMenu {
+	font-size: 120%;
+}
+
+.inactiveMenu a, .inactiveMenu a:link, .inactiveMenu a:visited {
+	color: #333333;
+	background-color: #fff0d3;
+}
+
+.activeMenu a, .activeMenu a:link, .activeMenu a:visited, .inactiveMenu a, .inactiveMenu a:hover {
+	color: white;
+	background-color: #22441C;
+}
+
+.inactiveMenu a:hover {
+	color: white;
+	background-color: #990000;
+}
+
+#subMenuitems div.activeMenu a, #subMenuitems div.inactiveMenu a:hover {
+	color: white;
+	background-color: #22441C;
+	font-size: 80%;
+}
+
+#subMenuitems div.inactiveMenu a {
+	color: white;
+	background-color: #990000;
+	font-size: 80%;
+}
+
+.activeMenu a.private, .activeMenu a.private:link, .activeMenu a.private:visited, .inactiveMenu a.private:hover {
+	color: white;
+	background-color: #999999;
+}
+
+.activeOptionsMenu, .inactiveOptionsMenu  {
+	font-size: 100%;
+}
+
+.inactiveOptionsMenu a, .inactiveOptionsMenu a:link, .inactiveOptionsMenu a:visited {
+	color: gray;
+	border: 1px solid gray;
+	background-color: white;
+}
+
+.activeOptionsMenu a, .activeOptionsMenu a:link, .activeOptionsMenu a:visited, .inactiveOptionsMenu a, .inactiveOptionsMenu a:hover {
+	color: white;
+	border: 1px solid gray;
+	background-color: gray;
+}
+
+#subMenuitems div.activeMenu a.private, #subMenuitems div.inactiveMenu a.private:hover {
+	background-color: gray;
+}
+
+#subMenuitems div.inactiveMenu a.private {
+	background-color: #999999;
+}
+
+/* General links */
+
+a {
+	color: #22441C;
+	text-decoration: none;
+}
+
+a.private {
+	font-style: italic;
+}
+
+a:hover {
+	color: #990000;
+}
+
+/* Commonly used classes for layout */
+
+.subtitle {
+	color: #909090;
+}
+
+/* Defining common elements */
+
+p {
+	line-height: 150%;
+}
+
+i {
+	color: gray;
+}
+
+h1 {
+	font-weight: normal;
+	color: #22441C;
+	font-size: 200%;
+}
+
+h2 {
+	font-weight: bolder;
+	color: #22441C;
+	font-size: 130%;
+}
+
+h3 {
+	font-weight: bolder;
+	color: #22441C;
+	font-size: 110%;
+}
+
+/* Classes used with divs for screen layout */
+
+.form {
+	border: 1px solid gray;
+	background-color: #fffffa;
+}
+
+/* Highlight news and main newsitem module */
+
+.newsDate {
+	font-style: italic;
+}
+
+.newsTitle {
+	font-weight: heavy;
+}
+
+.newsContent {
+	font-size: 90%;
+}
+
+.item {
+	border-bottom: 1px #e8e8e8 solid;
+}
+
+.newsitems p {
+	line-height: 150%;
+}
+
+/* Used at top of listings */
+
+.headerRecord, .headerRecord a {
+	font-weight: bold;
+	color: gray;
+}
+
+/* Greeting page formatting */
+
+.welcomeText, .welcomeText p {
+	font-size: 110%;
+	line-height: 150%;
+}
+
+/* Global */
+
+div.global {
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+/* Blog stuff */
+
+.blogArticle h2 {
+	color: inherit;
+}
+
+.blogArticle p {
+	color: inherit;
+}
+
+.blogArticle section p {
+	color: inherit;
+}
+
+/* -------- Different devices -------- */
+
+/* ----  min-width: 0px and max-width: 480px  ---- */
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+
+	body {font-size: 11px;}
+	div.global {padding: initial;}
+	#sectioncontainer, #bannercontainer, #logindetails, #footercontainer {margin: 0 auto; width: 95%;}
+	#menucontainer, #submenucontainer {border-radius: 0;}
+	#logo {width: 100%;}
+	div#searchSite, #blog1 #sidebar {display: none;}
+	#support1 #sidebar {display: none;}
+	#footercontainer {height: 40px;}
+	
+}
+
+/* ----  min-width: 481px and max-width: 786px  ---- */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+	body {font-size: 12px;}
+	div.global {padding: initial;}
+	#sectioncontainer, #bannercontainer, #logindetails, #footercontainer {margin: 0 auto; width: 95%;}
+	#menucontainer, #submenucontainer {border-radius: 0;}
+	div#searchSite, #blog1 #sidebar {display: none;}
+	#support1 #sidebar {display: none;}
+	#footercontainer {height: 40px;}
+}
+
+/* ----  min-width: 0px and max-width: 720px  ---- */
+
+@media only screen and (min-width: 0px) and (max-width: 720px) {
+	#logo {width: 90%; display: block; margin: 0 auto; float: none;}
+}
+
+/* ----  min-width: 481px and max-width: 600px  ---- */
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+	#support1 #sidebar {display: none;}
+}
+
+/* ----  min-width: 0px and max-width: 480px  ---- */
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+	#logo {width: 100%;}
+}
+
+/* ----  min-width: 769px and max-width: 960px  ---- */
+
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+
+	body {font-size: 12px;}
+	div.global {padding: initial;}
+	#sectioncontainer, #bannercontainer, #logindetails, #footercontainer {margin: 0 auto; width: 95%;}
+	#menucontainer, #submenucontainer {border-radius: 0;}
+	div#searchSite {display: none;}
+	#footercontainer {height: 40px;}
+}
+
+/* ----  min-width: 961px and max-width: 1024px  ---- */
+
+@media only screen and (min-width: 961px) and (max-width: 1024px) {
+
+	div.global {padding: initial;}
+	#sectioncontainer, #bannercontainer, #logindetails, #footercontainer {margin: 0 auto; width: 95%;}
+	#menucontainer, #submenucontainer {border-radius: 0;}
+	#footercontainer {height: 40px;}
+	div#searchSite {margin-left: 660px;}
+}
+
+/* -------- */
